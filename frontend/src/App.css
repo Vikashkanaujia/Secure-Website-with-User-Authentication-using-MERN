@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-nav{
+  background-color: rgb(28, 33, 49);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.nav-logo{
+  margin: 20px;
+  
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 50px;
+  
+}
+.navbar ul li{
+  
+  margin: 20px;
+}
+
+/* Login section  */
+
+.login-main{
+  display: flex;
+}
+.login-left{
+  position: relative;
+  height: 440px;
+  width: 50%;
+  background-color: rgb(97, 201, 192);
+}
+.form-section{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(8, 7, 7);
+}
+.login-right{
+  position: relative;
+  height: 440px;
+  width: 50%;
+  background-color: rgb(99, 186, 197);
+  
+}
+.login-right .login{
+
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Signup section */
+
+
+
+.signup-main{
+  display: flex;
+}
+.signup-left{
+  position: relative;
+  height: 440px;
+  width: 50%;
+  background-color: rgb(97, 201, 192);
+}
+.form-section{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(8, 7, 7);
+  margin: auto;
+}
+
+.form input{
+  margin: 10px 0;
+  border: solid black 1px;
+  padding: 5px;
+  width: 100%;
+}
+.form button{
+  padding: 5px;
+  
+}
+.btn{
+  text-align: center;
+}
+.signup-right{
+  position: relative;
+  height: 440px;
+  width: 50%;
+  background-color: rgb(99, 186, 197);
+  
+}
+.signup-right .signup{
+
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Account section */
+
+
+.account-main{
+  width: 100%;
+  height: 440px;
+  background-color:rgb(11, 54, 61) ;
+  position: relative;
+
+}
+.account{
+  position: absolute;
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
